@@ -1,0 +1,3488 @@
+{
+  "network_overview": {
+    "total_facilities": 22,
+    "dispensaries": 21,
+    "hospital": 1,
+    "cities": [
+      "Pune"
+    ],
+    "facility_types": [
+      "Dispensary",
+      "Hospital"
+    ],
+    "months": [
+      "April",
+      "May",
+      "June",
+      "July",
+      "August"
+    ],
+    "time_periods": [
+      "Daily",
+      "Weekly",
+      "Monthly",
+      "Quarterly"
+    ]
+  },
+  "facilities_list": [
+    "Alandi",
+    "Baramati",
+    "Bhosari",
+    "Chakan",
+    "Chinchwad",
+    "Daund",
+    "Hadapsar",
+    "Hinjewadi",
+    "Khed Shivapur",
+    "Kurkumbh",
+    "Lonavala",
+    "Mulshi",
+    "Pirangut",
+    "Rajguru Nagar",
+    "Ranjhangaon",
+    "Sanaswadi",
+    "Saswad",
+    "Shirur",
+    "Talegaon",
+    "Uruli Kanchan",
+    "Wagholi",
+    "Dhanwantari Hospital"
+  ],
+  "network_monthly_trends": {
+    "months": [
+      "April",
+      "August",
+      "July",
+      "June",
+      "May"
+    ],
+    "footfall": [
+      16178.0,
+      28775.0,
+      29486.0,
+      24832.0,
+      23150.0
+    ],
+    "new_registrations": [
+      3436.0,
+      5420.0,
+      5610.0,
+      7776.0,
+      7752.0
+    ],
+    "check_ins": [
+      14516.0,
+      23979.0,
+      23876.0,
+      17056.0,
+      15398.0
+    ],
+    "prescriptions": [
+      9330.0,
+      17749.0,
+      18207.0,
+      13464.0,
+      11425.0
+    ],
+    "referrals": [
+      1242.0,
+      992.0,
+      981.0,
+      1259.0,
+      928.0
+    ],
+    "certificates": [
+      212.0,
+      183.0,
+      225.0,
+      261.0,
+      197.0
+    ]
+  },
+  "facility_specific_data": {
+    "Alandi": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "footfall": [
+        562.0,
+        0.0,
+        745.0,
+        542.0,
+        1189.0
+      ],
+      "new_registrations": [
+        223.0,
+        175.0,
+        274.0,
+        209.0,
+        699.0
+      ],
+      "check_ins": [
+        339.0,
+        449.0,
+        471.0,
+        333.0,
+        490.0
+      ],
+      "prescriptions": [
+        346.0,
+        436.0,
+        464.0,
+        324.0,
+        598.0
+      ],
+      "referrals": [
+        5.0,
+        8.0,
+        13.0,
+        13.0,
+        8.0
+      ],
+      "certificates": [
+        0.0,
+        2.0,
+        2.0,
+        3.0,
+        0.0
+      ]
+    },
+    "Baramati": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "footfall": [
+        1276.0,
+        1735.0,
+        2059.0,
+        1613.0,
+        1323.0
+      ],
+      "new_registrations": [
+        223.0,
+        259.0,
+        325.0,
+        250.0,
+        282.0
+      ],
+      "check_ins": [
+        1053.0,
+        1476.0,
+        1734.0,
+        1363.0,
+        1041.0
+      ],
+      "prescriptions": [
+        698.0,
+        1006.0,
+        1110.0,
+        868.0,
+        715.0
+      ],
+      "referrals": [
+        47.0,
+        43.0,
+        29.0,
+        27.0,
+        16.0
+      ],
+      "certificates": [
+        16.0,
+        8.0,
+        27.0,
+        32.0,
+        11.0
+      ]
+    },
+    "Bhosari": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "footfall": [
+        1020.0,
+        1251.0,
+        1322.0,
+        993.0,
+        914.0
+      ],
+      "new_registrations": [
+        53.0,
+        154.0,
+        68.0,
+        48.0,
+        32.0
+      ],
+      "check_ins": [
+        967.0,
+        1097.0,
+        1254.0,
+        945.0,
+        882.0
+      ],
+      "prescriptions": [
+        718.0,
+        936.0,
+        1008.0,
+        697.0,
+        664.0
+      ],
+      "referrals": [
+        202.0,
+        78.0,
+        147.0,
+        181.0,
+        150.0
+      ],
+      "certificates": [
+        0.0,
+        7.0,
+        5.0,
+        11.0,
+        0.0
+      ]
+    },
+    "Chakan": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "footfall": [
+        1487.0,
+        2439.0,
+        2681.0,
+        1862.0,
+        1460.0
+      ],
+      "new_registrations": [
+        240.0,
+        339.0,
+        591.0,
+        266.0,
+        235.0
+      ],
+      "check_ins": [
+        1247.0,
+        2100.0,
+        2090.0,
+        1596.0,
+        1225.0
+      ],
+      "prescriptions": [
+        934.0,
+        1652.0,
+        1674.0,
+        1227.0,
+        923.0
+      ],
+      "referrals": [
+        1.0,
+        0.0,
+        2.0,
+        9.0,
+        6.0
+      ],
+      "certificates": [
+        14.0,
+        6.0,
+        18.0,
+        25.0,
+        12.0
+      ]
+    },
+    "Chinchwad": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "footfall": [
+        2125.0,
+        4177.0,
+        3089.0,
+        2291.0,
+        2100.0
+      ],
+      "new_registrations": [
+        190.0,
+        486.0,
+        327.0,
+        235.0,
+        174.0
+      ],
+      "check_ins": [
+        1935.0,
+        3691.0,
+        2762.0,
+        2056.0,
+        1926.0
+      ],
+      "prescriptions": [
+        0.0,
+        1690.0,
+        1909.0,
+        1297.0,
+        1219.0
+      ],
+      "referrals": [
+        300.0,
+        291.0,
+        354.0,
+        304.0,
+        311.0
+      ],
+      "certificates": [
+        0.0,
+        0.0,
+        14.0,
+        8.0,
+        1.0
+      ]
+    },
+    "Daund": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "footfall": [
+        0.0,
+        1007.0,
+        959.0,
+        574.0,
+        380.0
+      ],
+      "new_registrations": [
+        0.0,
+        404.0,
+        144.0,
+        114.0,
+        36.0
+      ],
+      "check_ins": [
+        0.0,
+        603.0,
+        815.0,
+        460.0,
+        344.0
+      ],
+      "prescriptions": [
+        0.0,
+        675.0,
+        862.0,
+        373.0,
+        335.0
+      ],
+      "referrals": [
+        0.0,
+        3.0,
+        1.0,
+        4.0,
+        11.0
+      ],
+      "certificates": [
+        0.0,
+        0.0,
+        0.0,
+        6.0,
+        2.0
+      ]
+    },
+    "Hadapsar": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "footfall": [
+        1180.0,
+        1638.0,
+        1621.0,
+        1228.0,
+        1061.0
+      ],
+      "new_registrations": [
+        163.0,
+        222.0,
+        227.0,
+        147.0,
+        129.0
+      ],
+      "check_ins": [
+        1017.0,
+        1416.0,
+        1394.0,
+        1081.0,
+        932.0
+      ],
+      "prescriptions": [
+        890.0,
+        1258.0,
+        1224.0,
+        1064.0,
+        742.0
+      ],
+      "referrals": [
+        68.0,
+        58.0,
+        66.0,
+        73.0,
+        56.0
+      ],
+      "certificates": [
+        129.0,
+        109.0,
+        112.0,
+        110.0,
+        125.0
+      ]
+    },
+    "Hinjewadi": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "footfall": [
+        389.0,
+        703.0,
+        690.0,
+        500.0,
+        404.0
+      ],
+      "new_registrations": [
+        43.0,
+        147.0,
+        157.0,
+        111.0,
+        60.0
+      ],
+      "check_ins": [
+        346.0,
+        556.0,
+        533.0,
+        389.0,
+        344.0
+      ],
+      "prescriptions": [
+        0.0,
+        490.0,
+        449.0,
+        350.0,
+        333.0
+      ],
+      "referrals": [
+        0.0,
+        31.0,
+        8.0,
+        9.0,
+        7.0
+      ],
+      "certificates": [
+        0.0,
+        1.0,
+        1.0,
+        5.0,
+        1.0
+      ]
+    },
+    "Khed Shivapur": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "footfall": [
+        655.0,
+        1949.0,
+        1858.0,
+        618.0,
+        1254.0
+      ],
+      "new_registrations": [
+        100.0,
+        245.0,
+        197.0,
+        73.0,
+        100.0
+      ],
+      "check_ins": [
+        555.0,
+        1704.0,
+        1661.0,
+        545.0,
+        1154.0
+      ],
+      "prescriptions": [
+        896.0,
+        1419.0,
+        1401.0,
+        1123.0,
+        1069.0
+      ],
+      "referrals": [
+        178.0,
+        125.0,
+        83.0,
+        146.0,
+        37.0
+      ],
+      "certificates": [
+        29.0,
+        7.0,
+        15.0,
+        28.0,
+        20.0
+      ]
+    },
+    "Kurkumbh": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "footfall": [
+        792.0,
+        1441.0,
+        1346.0,
+        977.0,
+        849.0
+      ],
+      "new_registrations": [
+        200.0,
+        287.0,
+        302.0,
+        231.0,
+        119.0
+      ],
+      "check_ins": [
+        592.0,
+        1154.0,
+        1044.0,
+        746.0,
+        730.0
+      ],
+      "prescriptions": [
+        456.0,
+        817.0,
+        0.0,
+        0.0,
+        553.0
+      ],
+      "referrals": [
+        2.0,
+        13.0,
+        14.0,
+        10.0,
+        4.0
+      ],
+      "certificates": [
+        0.0,
+        4.0,
+        2.0,
+        6.0,
+        2.0
+      ]
+    },
+    "Lonavala": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "footfall": [
+        247.0,
+        863.0,
+        879.0,
+        436.0,
+        294.0
+      ],
+      "new_registrations": [
+        37.0,
+        481.0,
+        365.0,
+        90.0,
+        38.0
+      ],
+      "check_ins": [
+        210.0,
+        382.0,
+        514.0,
+        346.0,
+        256.0
+      ],
+      "prescriptions": [
+        217.0,
+        779.0,
+        503.0,
+        354.0,
+        256.0
+      ],
+      "referrals": [
+        3.0,
+        12.0,
+        14.0,
+        10.0,
+        10.0
+      ],
+      "certificates": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Mulshi": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "footfall": [
+        489.0,
+        873.0,
+        1164.0,
+        597.0,
+        539.0
+      ],
+      "new_registrations": [
+        79.0,
+        261.0,
+        505.0,
+        132.0,
+        71.0
+      ],
+      "check_ins": [
+        410.0,
+        612.0,
+        659.0,
+        465.0,
+        468.0
+      ],
+      "prescriptions": [
+        410.0,
+        591.0,
+        632.0,
+        465.0,
+        468.0
+      ],
+      "referrals": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "certificates": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0
+      ]
+    },
+    "Pirangut": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "footfall": [
+        454.0,
+        586.0,
+        776.0,
+        443.0,
+        297.0
+      ],
+      "new_registrations": [
+        21.0,
+        110.0,
+        162.0,
+        72.0,
+        16.0
+      ],
+      "check_ins": [
+        433.0,
+        476.0,
+        614.0,
+        371.0,
+        281.0
+      ],
+      "prescriptions": [
+        405.0,
+        454.0,
+        556.0,
+        361.0,
+        259.0
+      ],
+      "referrals": [
+        0.0,
+        1.0,
+        12.0,
+        10.0,
+        0.0
+      ],
+      "certificates": [
+        0.0,
+        0.0,
+        3.0,
+        2.0,
+        2.0
+      ]
+    },
+    "Rajguru Nagar": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "footfall": [
+        444.0,
+        461.0,
+        532.0,
+        4853.0,
+        4745.0
+      ],
+      "new_registrations": [
+        43.0,
+        33.0,
+        52.0,
+        4447.0,
+        4369.0
+      ],
+      "check_ins": [
+        401.0,
+        428.0,
+        480.0,
+        406.0,
+        376.0
+      ],
+      "prescriptions": [
+        401.0,
+        415.0,
+        459.0,
+        385.0,
+        371.0
+      ],
+      "referrals": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "certificates": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ]
+    },
+    "Ranjhangaon": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "footfall": [
+        654.0,
+        1298.0,
+        1239.0,
+        753.0,
+        512.0
+      ],
+      "new_registrations": [
+        209.0,
+        284.0,
+        224.0,
+        128.0,
+        84.0
+      ],
+      "check_ins": [
+        445.0,
+        1014.0,
+        1015.0,
+        625.0,
+        428.0
+      ],
+      "prescriptions": [
+        383.0,
+        840.0,
+        868.0,
+        537.0,
+        325.0
+      ],
+      "referrals": [
+        39.0,
+        10.0,
+        13.0,
+        9.0,
+        10.0
+      ],
+      "certificates": [
+        0.0,
+        3.0,
+        5.0,
+        6.0,
+        1.0
+      ]
+    },
+    "Sanaswadi": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "footfall": [
+        1675.0,
+        2790.0,
+        2320.0,
+        1744.0,
+        1261.0
+      ],
+      "new_registrations": [
+        454.0,
+        652.0,
+        286.0,
+        171.0,
+        168.0
+      ],
+      "check_ins": [
+        1221.0,
+        2138.0,
+        2034.0,
+        1573.0,
+        1093.0
+      ],
+      "prescriptions": [
+        903.0,
+        1789.0,
+        1524.0,
+        1227.0,
+        844.0
+      ],
+      "referrals": [
+        191.0,
+        137.0,
+        110.0,
+        272.0,
+        143.0
+      ],
+      "certificates": [
+        0.0,
+        9.0,
+        11.0,
+        3.0,
+        0.0
+      ]
+    },
+    "Saswad": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "footfall": [
+        515.0,
+        740.0,
+        993.0,
+        758.0,
+        559.0
+      ],
+      "new_registrations": [
+        70.0,
+        126.0,
+        179.0,
+        188.0,
+        83.0
+      ],
+      "check_ins": [
+        445.0,
+        614.0,
+        814.0,
+        570.0,
+        476.0
+      ],
+      "prescriptions": [
+        444.0,
+        635.0,
+        807.0,
+        589.0,
+        511.0
+      ],
+      "referrals": [
+        0.0,
+        2.0,
+        0.0,
+        3.0,
+        0.0
+      ],
+      "certificates": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "Shirur": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "footfall": [
+        459.0,
+        480.0,
+        371.0,
+        335.0,
+        262.0
+      ],
+      "new_registrations": [
+        126.0,
+        119.0,
+        29.0,
+        32.0,
+        26.0
+      ],
+      "check_ins": [
+        333.0,
+        361.0,
+        342.0,
+        303.0,
+        236.0
+      ],
+      "prescriptions": [
+        168.0,
+        328.0,
+        302.0,
+        261.0,
+        196.0
+      ],
+      "referrals": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "certificates": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Talegaon": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "footfall": [
+        0.0,
+        2376.0,
+        2300.0,
+        1862.0,
+        1625.0
+      ],
+      "new_registrations": [
+        315.0,
+        344.0,
+        367.0,
+        290.0,
+        193.0
+      ],
+      "check_ins": [
+        1459.0,
+        2032.0,
+        1933.0,
+        1572.0,
+        1432.0
+      ],
+      "prescriptions": [
+        691.0,
+        998.0,
+        966.0,
+        785.0,
+        699.0
+      ],
+      "referrals": [
+        152.0,
+        156.0,
+        79.0,
+        142.0,
+        95.0
+      ],
+      "certificates": [
+        1.0,
+        1.0,
+        0.0,
+        5.0,
+        1.0
+      ]
+    },
+    "Uruli Kanchan": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "footfall": [
+        1222.0,
+        1127.0,
+        1565.0,
+        1231.0,
+        1536.0
+      ],
+      "new_registrations": [
+        543.0,
+        208.0,
+        594.0,
+        464.0,
+        762.0
+      ],
+      "check_ins": [
+        679.0,
+        919.0,
+        971.0,
+        767.0,
+        774.0
+      ],
+      "prescriptions": [
+        0.0,
+        0.0,
+        916.0,
+        744.0,
+        0.0
+      ],
+      "referrals": [
+        20.0,
+        12.0,
+        28.0,
+        28.0,
+        16.0
+      ],
+      "certificates": [
+        2.0,
+        4.0,
+        4.0,
+        2.0,
+        1.0
+      ]
+    },
+    "Wagholi": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "footfall": [
+        533.0,
+        841.0,
+        977.0,
+        622.0,
+        586.0
+      ],
+      "new_registrations": [
+        104.0,
+        84.0,
+        235.0,
+        78.0,
+        76.0
+      ],
+      "check_ins": [
+        429.0,
+        757.0,
+        742.0,
+        544.0,
+        510.0
+      ],
+      "prescriptions": [
+        370.0,
+        541.0,
+        573.0,
+        433.0,
+        345.0
+      ],
+      "referrals": [
+        34.0,
+        12.0,
+        8.0,
+        9.0,
+        48.0
+      ],
+      "certificates": [
+        20.0,
+        22.0,
+        4.0,
+        8.0,
+        16.0
+      ]
+    }
+  },
+  "outreach_network_trends": {
+    "months": [
+      "April",
+      "August",
+      "July",
+      "June",
+      "May"
+    ],
+    "camp_footfall": [
+      3436.0,
+      15479.0,
+      2278.0,
+      10865.0,
+      7752.0
+    ],
+    "camp_new_registrations": [
+      14516.0,
+      339.0,
+      42.0,
+      682.0,
+      15398.0
+    ],
+    "camp_opd": [
+      16178.0,
+      17749.0,
+      2503.0,
+      13464.0,
+      23150.0
+    ],
+    "camps_conducted": [
+      48.0,
+      48.0,
+      48.0,
+      48.0,
+      48.0
+    ]
+  },
+  "outreach_facility_data": {
+    "Alandi": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "camp_footfall": [
+        223.0,
+        435.0,
+        18.0,
+        324.0,
+        699.0
+      ],
+      "camp_new_registrations": [
+        339.0,
+        1.0,
+        2.0,
+        0.0,
+        490.0
+      ],
+      "camp_opd": [
+        562.0,
+        436.0,
+        20.0,
+        324.0,
+        1189.0
+      ],
+      "camps_conducted": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "Baramati": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "camp_footfall": [
+        223.0,
+        991.0,
+        319.0,
+        844.0,
+        282.0
+      ],
+      "camp_new_registrations": [
+        1053.0,
+        15.0,
+        27.0,
+        24.0,
+        1041.0
+      ],
+      "camp_opd": [
+        1276.0,
+        1006.0,
+        346.0,
+        868.0,
+        1323.0
+      ],
+      "camps_conducted": [
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0
+      ]
+    },
+    "Bhosari": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "camp_footfall": [
+        53.0,
+        747.0,
+        171.0,
+        401.0,
+        32.0
+      ],
+      "camp_new_registrations": [
+        967.0,
+        189.0,
+        5.0,
+        296.0,
+        882.0
+      ],
+      "camp_opd": [
+        1020.0,
+        936.0,
+        176.0,
+        697.0,
+        914.0
+      ],
+      "camps_conducted": [
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0
+      ]
+    },
+    "Chakan": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "camp_footfall": [
+        240.0,
+        1649.0,
+        331.0,
+        1207.0,
+        235.0
+      ],
+      "camp_new_registrations": [
+        1247.0,
+        0.0,
+        0.0,
+        0.0,
+        1225.0
+      ],
+      "camp_opd": [
+        1487.0,
+        1652.0,
+        349.0,
+        1227.0,
+        1460.0
+      ],
+      "camps_conducted": [
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0
+      ]
+    },
+    "Chinchwad": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "camp_footfall": [
+        190.0,
+        1369.0,
+        514.0,
+        777.0,
+        174.0
+      ],
+      "camp_new_registrations": [
+        1935.0,
+        0.0,
+        0.0,
+        0.0,
+        1926.0
+      ],
+      "camp_opd": [
+        2125.0,
+        1690.0,
+        528.0,
+        1297.0,
+        2100.0
+      ],
+      "camps_conducted": [
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0
+      ]
+    },
+    "Daund": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "camp_footfall": [
+        0.0,
+        408.0,
+        44.0,
+        373.0,
+        36.0
+      ],
+      "camp_new_registrations": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        344.0
+      ],
+      "camp_opd": [
+        0.0,
+        675.0,
+        44.0,
+        373.0,
+        380.0
+      ],
+      "camps_conducted": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "Hadapsar": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "camp_footfall": [
+        163.0,
+        919.0,
+        110.0,
+        595.0,
+        129.0
+      ],
+      "camp_new_registrations": [
+        1017.0,
+        0.0,
+        0.0,
+        0.0,
+        932.0
+      ],
+      "camp_opd": [
+        1180.0,
+        1258.0,
+        222.0,
+        1064.0,
+        1061.0
+      ],
+      "camps_conducted": [
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0
+      ]
+    },
+    "Hinjewadi": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "camp_footfall": [
+        43.0,
+        478.0,
+        79.0,
+        331.0,
+        60.0
+      ],
+      "camp_new_registrations": [
+        346.0,
+        0.0,
+        0.0,
+        0.0,
+        344.0
+      ],
+      "camp_opd": [
+        389.0,
+        490.0,
+        80.0,
+        350.0,
+        404.0
+      ],
+      "camps_conducted": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "Khed Shivapur": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "camp_footfall": [
+        100.0,
+        1250.0,
+        72.0,
+        467.0,
+        100.0
+      ],
+      "camp_new_registrations": [
+        555.0,
+        0.0,
+        0.0,
+        0.0,
+        1154.0
+      ],
+      "camp_opd": [
+        655.0,
+        1419.0,
+        87.0,
+        1123.0,
+        1254.0
+      ],
+      "camps_conducted": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "Kurkumbh": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "camp_footfall": [
+        200.0,
+        701.0,
+        97.0,
+        466.0,
+        119.0
+      ],
+      "camp_new_registrations": [
+        592.0,
+        0.0,
+        0.0,
+        0.0,
+        730.0
+      ],
+      "camp_opd": [
+        792.0,
+        817.0,
+        99.0,
+        0.0,
+        849.0
+      ],
+      "camps_conducted": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "Lonavala": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "camp_footfall": [
+        37.0,
+        368.0,
+        60.0,
+        336.0,
+        38.0
+      ],
+      "camp_new_registrations": [
+        210.0,
+        0.0,
+        0.0,
+        0.0,
+        256.0
+      ],
+      "camp_opd": [
+        247.0,
+        779.0,
+        60.0,
+        354.0,
+        294.0
+      ],
+      "camps_conducted": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "Mulshi": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "camp_footfall": [
+        79.0,
+        578.0,
+        19.0,
+        417.0,
+        71.0
+      ],
+      "camp_new_registrations": [
+        410.0,
+        0.0,
+        0.0,
+        0.0,
+        468.0
+      ],
+      "camp_opd": [
+        489.0,
+        591.0,
+        20.0,
+        465.0,
+        539.0
+      ],
+      "camps_conducted": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "Pirangut": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "camp_footfall": [
+        21.0,
+        436.0,
+        13.0,
+        320.0,
+        16.0
+      ],
+      "camp_new_registrations": [
+        433.0,
+        0.0,
+        0.0,
+        0.0,
+        281.0
+      ],
+      "camp_opd": [
+        454.0,
+        454.0,
+        16.0,
+        361.0,
+        297.0
+      ],
+      "camps_conducted": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "Rajguru Nagar": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "camp_footfall": [
+        43.0,
+        399.0,
+        28.0,
+        379.0,
+        4369.0
+      ],
+      "camp_new_registrations": [
+        401.0,
+        0.0,
+        0.0,
+        0.0,
+        376.0
+      ],
+      "camp_opd": [
+        444.0,
+        415.0,
+        29.0,
+        385.0,
+        4745.0
+      ],
+      "camps_conducted": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "Ranjhangaon": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "camp_footfall": [
+        209.0,
+        840.0,
+        43.0,
+        537.0,
+        84.0
+      ],
+      "camp_new_registrations": [
+        445.0,
+        0.0,
+        0.0,
+        0.0,
+        428.0
+      ],
+      "camp_opd": [
+        654.0,
+        840.0,
+        48.0,
+        537.0,
+        512.0
+      ],
+      "camps_conducted": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "Sanaswadi": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "camp_footfall": [
+        454.0,
+        1588.0,
+        70.0,
+        710.0,
+        168.0
+      ],
+      "camp_new_registrations": [
+        1221.0,
+        0.0,
+        0.0,
+        0.0,
+        1093.0
+      ],
+      "camp_opd": [
+        1675.0,
+        1789.0,
+        81.0,
+        1227.0,
+        1261.0
+      ],
+      "camps_conducted": [
+        3.0,
+        3.0,
+        3.0,
+        3.0,
+        3.0
+      ]
+    },
+    "Saswad": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "camp_footfall": [
+        70.0,
+        622.0,
+        39.0,
+        534.0,
+        83.0
+      ],
+      "camp_new_registrations": [
+        445.0,
+        0.0,
+        0.0,
+        0.0,
+        476.0
+      ],
+      "camp_opd": [
+        515.0,
+        635.0,
+        39.0,
+        589.0,
+        559.0
+      ],
+      "camps_conducted": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "Shirur": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "camp_footfall": [
+        126.0,
+        296.0,
+        13.0,
+        247.0,
+        26.0
+      ],
+      "camp_new_registrations": [
+        333.0,
+        0.0,
+        0.0,
+        0.0,
+        236.0
+      ],
+      "camp_opd": [
+        459.0,
+        328.0,
+        13.0,
+        261.0,
+        262.0
+      ],
+      "camps_conducted": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "Talegaon": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "camp_footfall": [
+        315.0,
+        903.0,
+        102.0,
+        629.0,
+        193.0
+      ],
+      "camp_new_registrations": [
+        1459.0,
+        95.0,
+        0.0,
+        156.0,
+        1432.0
+      ],
+      "camp_opd": [
+        0.0,
+        998.0,
+        102.0,
+        785.0,
+        1625.0
+      ],
+      "camps_conducted": [
+        4.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ]
+    },
+    "Uruli Kanchan": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "camp_footfall": [
+        543.0,
+        0.0,
+        90.0,
+        562.0,
+        762.0
+      ],
+      "camp_new_registrations": [
+        679.0,
+        0.0,
+        4.0,
+        182.0,
+        774.0
+      ],
+      "camp_opd": [
+        1222.0,
+        0.0,
+        94.0,
+        744.0,
+        1536.0
+      ],
+      "camps_conducted": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    },
+    "Wagholi": {
+      "months": [
+        "April",
+        "August",
+        "July",
+        "June",
+        "May"
+      ],
+      "camp_footfall": [
+        104.0,
+        502.0,
+        46.0,
+        409.0,
+        76.0
+      ],
+      "camp_new_registrations": [
+        429.0,
+        39.0,
+        4.0,
+        24.0,
+        510.0
+      ],
+      "camp_opd": [
+        533.0,
+        541.0,
+        50.0,
+        433.0,
+        586.0
+      ],
+      "camps_conducted": [
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ]
+    }
+  },
+  "top_5_performers": [
+    {
+      "name": "Chakan",
+      "footfall": 9929,
+      "prescriptions": 6410,
+      "performance_score": 20.0,
+      "referrals": 18,
+      "certificates": 75
+    },
+    {
+      "name": "Sanaswadi",
+      "footfall": 9790,
+      "prescriptions": 6287,
+      "performance_score": 20.0,
+      "referrals": 853,
+      "certificates": 23
+    },
+    {
+      "name": "Khed Shivapur",
+      "footfall": 6334,
+      "prescriptions": 5908,
+      "performance_score": 20.0,
+      "referrals": 569,
+      "certificates": 99
+    },
+    {
+      "name": "Chinchwad",
+      "footfall": 13782,
+      "prescriptions": 6115,
+      "performance_score": 19.4,
+      "referrals": 1560,
+      "certificates": 23
+    },
+    {
+      "name": "Hadapsar",
+      "footfall": 6728,
+      "prescriptions": 5178,
+      "performance_score": 19.4,
+      "referrals": 321,
+      "certificates": 585
+    }
+  ],
+  "bottom_5_performers": [
+    {
+      "name": "Wagholi",
+      "footfall": 3559,
+      "prescriptions": 2262,
+      "performance_score": 14.4,
+      "referrals": 111,
+      "certificates": 70
+    },
+    {
+      "name": "Uruli Kanchan",
+      "footfall": 6681,
+      "prescriptions": 1660,
+      "performance_score": 12.5,
+      "referrals": 104,
+      "certificates": 13
+    },
+    {
+      "name": "Kurkumbh",
+      "footfall": 5405,
+      "prescriptions": 1826,
+      "performance_score": 12.4,
+      "referrals": 43,
+      "certificates": 14
+    },
+    {
+      "name": "Hinjewadi",
+      "footfall": 2686,
+      "prescriptions": 1622,
+      "performance_score": 12.0,
+      "referrals": 55,
+      "certificates": 8
+    },
+    {
+      "name": "Shirur",
+      "footfall": 1907,
+      "prescriptions": 1255,
+      "performance_score": 11.0,
+      "referrals": 0,
+      "certificates": 0
+    }
+  ],
+  "hospital_departments": [
+    {
+      "Department": "Paedtrics(Dr. Kishor Giri)",
+      "Check_ins": 262.0,
+      "Online_Prescriptions": 0.0,
+      "Pharmacy_Issues": 0.0,
+      "Diagnoses": 3.0,
+      "Referrals": 3.0,
+      "Investigations": 0.0,
+      "Interventions": 0.0
+    },
+    {
+      "Department": "Paedtrics(Dr. Poonam Meshram)",
+      "Check_ins": 0,
+      "Online_Prescriptions": 2.0,
+      "Pharmacy_Issues": 0.0,
+      "Diagnoses": 4.0,
+      "Referrals": 4.0,
+      "Investigations": 0.0,
+      "Interventions": 0.0
+    },
+    {
+      "Department": "ENT",
+      "Check_ins": 365.0,
+      "Online_Prescriptions": 22.0,
+      "Pharmacy_Issues": 1.0,
+      "Diagnoses": 30.0,
+      "Referrals": 27.0,
+      "Investigations": 5.0,
+      "Interventions": 11.0
+    },
+    {
+      "Department": "Eye(Opthalmology)",
+      "Check_ins": 518.0,
+      "Online_Prescriptions": 0,
+      "Pharmacy_Issues": 0.0,
+      "Diagnoses": 48.0,
+      "Referrals": 0.0,
+      "Investigations": 0.0,
+      "Interventions": 0.0
+    },
+    {
+      "Department": "General medicine(Dr. Sunita Dhage)",
+      "Check_ins": 3558.0,
+      "Online_Prescriptions": 172.0,
+      "Pharmacy_Issues": 1.0,
+      "Diagnoses": 165.0,
+      "Referrals": 7.0,
+      "Investigations": 19.0,
+      "Interventions": 196.0
+    },
+    {
+      "Department": "General medicine(Dr. Sarayu Humane)",
+      "Check_ins": 0,
+      "Online_Prescriptions": 71.0,
+      "Pharmacy_Issues": 0,
+      "Diagnoses": 93.0,
+      "Referrals": 11.0,
+      "Investigations": 4.0,
+      "Interventions": 14.0
+    },
+    {
+      "Department": "Orthopaedics(Dr. Pallavi)",
+      "Check_ins": 2376.0,
+      "Online_Prescriptions": 87.0,
+      "Pharmacy_Issues": 0.0,
+      "Diagnoses": 64.0,
+      "Referrals": 6.0,
+      "Investigations": 32.0,
+      "Interventions": 44.0
+    },
+    {
+      "Department": "Gynaecology",
+      "Check_ins": 393.0,
+      "Online_Prescriptions": 29.0,
+      "Pharmacy_Issues": 0.0,
+      "Diagnoses": 55.0,
+      "Referrals": 49.0,
+      "Investigations": 9.0,
+      "Interventions": 25.0
+    }
+  ],
+  "detailed_dispensary_data": [
+    {
+      "month": "April",
+      "dispensary": "Alandi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 223,
+      "check_ins": 339,
+      "total_footfall": 562,
+      "total_prescriptions": 346,
+      "total_referrals": 5,
+      "total_certificates": 0
+    },
+    {
+      "month": "April",
+      "dispensary": "Baramati",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 223,
+      "check_ins": 1053,
+      "total_footfall": 1276,
+      "total_prescriptions": 698,
+      "total_referrals": 47,
+      "total_certificates": 16
+    },
+    {
+      "month": "April",
+      "dispensary": "Bhosari",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 53,
+      "check_ins": 967,
+      "total_footfall": 1020,
+      "total_prescriptions": 718,
+      "total_referrals": 202,
+      "total_certificates": 0
+    },
+    {
+      "month": "April",
+      "dispensary": "Chakan",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 240,
+      "check_ins": 1247,
+      "total_footfall": 1487,
+      "total_prescriptions": 934,
+      "total_referrals": 1,
+      "total_certificates": 14
+    },
+    {
+      "month": "April",
+      "dispensary": "Chinchwad",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 190,
+      "check_ins": 1935,
+      "total_footfall": 2125,
+      "total_prescriptions": 0,
+      "total_referrals": 300,
+      "total_certificates": 0
+    },
+    {
+      "month": "April",
+      "dispensary": "Daund",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 0,
+      "check_ins": 0,
+      "total_footfall": 0,
+      "total_prescriptions": 0,
+      "total_referrals": 0,
+      "total_certificates": 0
+    },
+    {
+      "month": "April",
+      "dispensary": "Hadapsar",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 163,
+      "check_ins": 1017,
+      "total_footfall": 1180,
+      "total_prescriptions": 890,
+      "total_referrals": 68,
+      "total_certificates": 129
+    },
+    {
+      "month": "April",
+      "dispensary": "Hinjewadi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 43,
+      "check_ins": 346,
+      "total_footfall": 389,
+      "total_prescriptions": 0,
+      "total_referrals": 0,
+      "total_certificates": 0
+    },
+    {
+      "month": "April",
+      "dispensary": "Khed Shivapur",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 100,
+      "check_ins": 555,
+      "total_footfall": 655,
+      "total_prescriptions": 896,
+      "total_referrals": 178,
+      "total_certificates": 29
+    },
+    {
+      "month": "April",
+      "dispensary": "Kurkumbh",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 200,
+      "check_ins": 592,
+      "total_footfall": 792,
+      "total_prescriptions": 456,
+      "total_referrals": 2,
+      "total_certificates": 0
+    },
+    {
+      "month": "April",
+      "dispensary": "Lonavala",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 37,
+      "check_ins": 210,
+      "total_footfall": 247,
+      "total_prescriptions": 217,
+      "total_referrals": 3,
+      "total_certificates": 0
+    },
+    {
+      "month": "April",
+      "dispensary": "Mulshi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 79,
+      "check_ins": 410,
+      "total_footfall": 489,
+      "total_prescriptions": 410,
+      "total_referrals": 0,
+      "total_certificates": 0
+    },
+    {
+      "month": "April",
+      "dispensary": "Pirangut",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 21,
+      "check_ins": 433,
+      "total_footfall": 454,
+      "total_prescriptions": 405,
+      "total_referrals": 0,
+      "total_certificates": 0
+    },
+    {
+      "month": "April",
+      "dispensary": "Rajguru Nagar",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 43,
+      "check_ins": 401,
+      "total_footfall": 444,
+      "total_prescriptions": 401,
+      "total_referrals": 0,
+      "total_certificates": 0
+    },
+    {
+      "month": "April",
+      "dispensary": "Ranjhangaon",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 209,
+      "check_ins": 445,
+      "total_footfall": 654,
+      "total_prescriptions": 383,
+      "total_referrals": 39,
+      "total_certificates": 0
+    },
+    {
+      "month": "April",
+      "dispensary": "Sanaswadi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 454,
+      "check_ins": 1221,
+      "total_footfall": 1675,
+      "total_prescriptions": 903,
+      "total_referrals": 191,
+      "total_certificates": 0
+    },
+    {
+      "month": "April",
+      "dispensary": "Saswad",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 70,
+      "check_ins": 445,
+      "total_footfall": 515,
+      "total_prescriptions": 444,
+      "total_referrals": 0,
+      "total_certificates": 1
+    },
+    {
+      "month": "April",
+      "dispensary": "Shirur",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 126,
+      "check_ins": 333,
+      "total_footfall": 459,
+      "total_prescriptions": 168,
+      "total_referrals": 0,
+      "total_certificates": 0
+    },
+    {
+      "month": "April",
+      "dispensary": "Talegaon",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 315,
+      "check_ins": 1459,
+      "total_footfall": 0,
+      "total_prescriptions": 691,
+      "total_referrals": 152,
+      "total_certificates": 1
+    },
+    {
+      "month": "April",
+      "dispensary": "Uruli Kanchan",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 543,
+      "check_ins": 679,
+      "total_footfall": 1222,
+      "total_prescriptions": 0,
+      "total_referrals": 20,
+      "total_certificates": 2
+    },
+    {
+      "month": "April",
+      "dispensary": "Wagholi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 104,
+      "check_ins": 429,
+      "total_footfall": 533,
+      "total_prescriptions": 370,
+      "total_referrals": 34,
+      "total_certificates": 20
+    },
+    {
+      "month": "May",
+      "dispensary": "Alandi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 699,
+      "check_ins": 490,
+      "total_footfall": 1189,
+      "total_prescriptions": 598,
+      "total_referrals": 8,
+      "total_certificates": 0
+    },
+    {
+      "month": "May",
+      "dispensary": "Baramati",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 282,
+      "check_ins": 1041,
+      "total_footfall": 1323,
+      "total_prescriptions": 715,
+      "total_referrals": 16,
+      "total_certificates": 11
+    },
+    {
+      "month": "May",
+      "dispensary": "Bhosari",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 32,
+      "check_ins": 882,
+      "total_footfall": 914,
+      "total_prescriptions": 664,
+      "total_referrals": 150,
+      "total_certificates": 0
+    },
+    {
+      "month": "May",
+      "dispensary": "Chakan",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 235,
+      "check_ins": 1225,
+      "total_footfall": 1460,
+      "total_prescriptions": 923,
+      "total_referrals": 6,
+      "total_certificates": 12
+    },
+    {
+      "month": "May",
+      "dispensary": "Chinchwad",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 174,
+      "check_ins": 1926,
+      "total_footfall": 2100,
+      "total_prescriptions": 1219,
+      "total_referrals": 311,
+      "total_certificates": 1
+    },
+    {
+      "month": "May",
+      "dispensary": "Daund",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 36,
+      "check_ins": 344,
+      "total_footfall": 380,
+      "total_prescriptions": 335,
+      "total_referrals": 11,
+      "total_certificates": 2
+    },
+    {
+      "month": "May",
+      "dispensary": "Hadapsar",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 129,
+      "check_ins": 932,
+      "total_footfall": 1061,
+      "total_prescriptions": 742,
+      "total_referrals": 56,
+      "total_certificates": 125
+    },
+    {
+      "month": "May",
+      "dispensary": "Hinjewadi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 60,
+      "check_ins": 344,
+      "total_footfall": 404,
+      "total_prescriptions": 333,
+      "total_referrals": 7,
+      "total_certificates": 1
+    },
+    {
+      "month": "May",
+      "dispensary": "Khed Shivapur",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 100,
+      "check_ins": 1154,
+      "total_footfall": 1254,
+      "total_prescriptions": 1069,
+      "total_referrals": 37,
+      "total_certificates": 20
+    },
+    {
+      "month": "May",
+      "dispensary": "Kurkumbh",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 119,
+      "check_ins": 730,
+      "total_footfall": 849,
+      "total_prescriptions": 553,
+      "total_referrals": 4,
+      "total_certificates": 2
+    },
+    {
+      "month": "May",
+      "dispensary": "Lonavala",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 38,
+      "check_ins": 256,
+      "total_footfall": 294,
+      "total_prescriptions": 256,
+      "total_referrals": 10,
+      "total_certificates": 0
+    },
+    {
+      "month": "May",
+      "dispensary": "Mulshi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 71,
+      "check_ins": 468,
+      "total_footfall": 539,
+      "total_prescriptions": 468,
+      "total_referrals": 0,
+      "total_certificates": 0
+    },
+    {
+      "month": "May",
+      "dispensary": "Pirangut",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 16,
+      "check_ins": 281,
+      "total_footfall": 297,
+      "total_prescriptions": 259,
+      "total_referrals": 0,
+      "total_certificates": 2
+    },
+    {
+      "month": "May",
+      "dispensary": "Rajguru Nagar",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 4369,
+      "check_ins": 376,
+      "total_footfall": 4745,
+      "total_prescriptions": 371,
+      "total_referrals": 0,
+      "total_certificates": 1
+    },
+    {
+      "month": "May",
+      "dispensary": "Ranjhangaon",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 84,
+      "check_ins": 428,
+      "total_footfall": 512,
+      "total_prescriptions": 325,
+      "total_referrals": 10,
+      "total_certificates": 1
+    },
+    {
+      "month": "May",
+      "dispensary": "Sanaswadi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 168,
+      "check_ins": 1093,
+      "total_footfall": 1261,
+      "total_prescriptions": 844,
+      "total_referrals": 143,
+      "total_certificates": 0
+    },
+    {
+      "month": "May",
+      "dispensary": "Saswad",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 83,
+      "check_ins": 476,
+      "total_footfall": 559,
+      "total_prescriptions": 511,
+      "total_referrals": 0,
+      "total_certificates": 1
+    },
+    {
+      "month": "May",
+      "dispensary": "Shirur",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 26,
+      "check_ins": 236,
+      "total_footfall": 262,
+      "total_prescriptions": 196,
+      "total_referrals": 0,
+      "total_certificates": 0
+    },
+    {
+      "month": "May",
+      "dispensary": "Talegaon",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 193,
+      "check_ins": 1432,
+      "total_footfall": 1625,
+      "total_prescriptions": 699,
+      "total_referrals": 95,
+      "total_certificates": 1
+    },
+    {
+      "month": "May",
+      "dispensary": "Uruli Kanchan",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 762,
+      "check_ins": 774,
+      "total_footfall": 1536,
+      "total_prescriptions": 0,
+      "total_referrals": 16,
+      "total_certificates": 1
+    },
+    {
+      "month": "May",
+      "dispensary": "Wagholi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 76,
+      "check_ins": 510,
+      "total_footfall": 586,
+      "total_prescriptions": 345,
+      "total_referrals": 48,
+      "total_certificates": 16
+    },
+    {
+      "month": "June",
+      "dispensary": "Alandi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 209,
+      "check_ins": 333,
+      "total_footfall": 542,
+      "total_prescriptions": 324,
+      "total_referrals": 13,
+      "total_certificates": 3
+    },
+    {
+      "month": "June",
+      "dispensary": "Baramati",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 250,
+      "check_ins": 1363,
+      "total_footfall": 1613,
+      "total_prescriptions": 868,
+      "total_referrals": 27,
+      "total_certificates": 32
+    },
+    {
+      "month": "June",
+      "dispensary": "Bhosari",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 48,
+      "check_ins": 945,
+      "total_footfall": 993,
+      "total_prescriptions": 697,
+      "total_referrals": 181,
+      "total_certificates": 11
+    },
+    {
+      "month": "June",
+      "dispensary": "Chakan",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 266,
+      "check_ins": 1596,
+      "total_footfall": 1862,
+      "total_prescriptions": 1227,
+      "total_referrals": 9,
+      "total_certificates": 25
+    },
+    {
+      "month": "June",
+      "dispensary": "Chinchwad",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 235,
+      "check_ins": 2056,
+      "total_footfall": 2291,
+      "total_prescriptions": 1297,
+      "total_referrals": 304,
+      "total_certificates": 8
+    },
+    {
+      "month": "June",
+      "dispensary": "Daund",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 114,
+      "check_ins": 460,
+      "total_footfall": 574,
+      "total_prescriptions": 373,
+      "total_referrals": 4,
+      "total_certificates": 6
+    },
+    {
+      "month": "June",
+      "dispensary": "Hadapsar",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 147,
+      "check_ins": 1081,
+      "total_footfall": 1228,
+      "total_prescriptions": 1064,
+      "total_referrals": 73,
+      "total_certificates": 110
+    },
+    {
+      "month": "June",
+      "dispensary": "Hinjewadi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 111,
+      "check_ins": 389,
+      "total_footfall": 500,
+      "total_prescriptions": 350,
+      "total_referrals": 9,
+      "total_certificates": 5
+    },
+    {
+      "month": "June",
+      "dispensary": "Khed Shivapur",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 73,
+      "check_ins": 545,
+      "total_footfall": 618,
+      "total_prescriptions": 1123,
+      "total_referrals": 146,
+      "total_certificates": 28
+    },
+    {
+      "month": "June",
+      "dispensary": "Kurkumbh",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 231,
+      "check_ins": 746,
+      "total_footfall": 977,
+      "total_prescriptions": 0,
+      "total_referrals": 10,
+      "total_certificates": 6
+    },
+    {
+      "month": "June",
+      "dispensary": "Lonavala",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 90,
+      "check_ins": 346,
+      "total_footfall": 436,
+      "total_prescriptions": 354,
+      "total_referrals": 10,
+      "total_certificates": 0
+    },
+    {
+      "month": "June",
+      "dispensary": "Mulshi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 132,
+      "check_ins": 465,
+      "total_footfall": 597,
+      "total_prescriptions": 465,
+      "total_referrals": 0,
+      "total_certificates": 1
+    },
+    {
+      "month": "June",
+      "dispensary": "Pirangut",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 72,
+      "check_ins": 371,
+      "total_footfall": 443,
+      "total_prescriptions": 361,
+      "total_referrals": 10,
+      "total_certificates": 2
+    },
+    {
+      "month": "June",
+      "dispensary": "Rajguru Nagar",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 4447,
+      "check_ins": 406,
+      "total_footfall": 4853,
+      "total_prescriptions": 385,
+      "total_referrals": 0,
+      "total_certificates": 0
+    },
+    {
+      "month": "June",
+      "dispensary": "Ranjhangaon",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 128,
+      "check_ins": 625,
+      "total_footfall": 753,
+      "total_prescriptions": 537,
+      "total_referrals": 9,
+      "total_certificates": 6
+    },
+    {
+      "month": "June",
+      "dispensary": "Sanaswadi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 171,
+      "check_ins": 1573,
+      "total_footfall": 1744,
+      "total_prescriptions": 1227,
+      "total_referrals": 272,
+      "total_certificates": 3
+    },
+    {
+      "month": "June",
+      "dispensary": "Saswad",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 188,
+      "check_ins": 570,
+      "total_footfall": 758,
+      "total_prescriptions": 589,
+      "total_referrals": 3,
+      "total_certificates": 0
+    },
+    {
+      "month": "June",
+      "dispensary": "Shirur",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 32,
+      "check_ins": 303,
+      "total_footfall": 335,
+      "total_prescriptions": 261,
+      "total_referrals": 0,
+      "total_certificates": 0
+    },
+    {
+      "month": "June",
+      "dispensary": "Talegaon",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 290,
+      "check_ins": 1572,
+      "total_footfall": 1862,
+      "total_prescriptions": 785,
+      "total_referrals": 142,
+      "total_certificates": 5
+    },
+    {
+      "month": "June",
+      "dispensary": "Uruli Kanchan",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 464,
+      "check_ins": 767,
+      "total_footfall": 1231,
+      "total_prescriptions": 744,
+      "total_referrals": 28,
+      "total_certificates": 2
+    },
+    {
+      "month": "June",
+      "dispensary": "Wagholi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 78,
+      "check_ins": 544,
+      "total_footfall": 622,
+      "total_prescriptions": 433,
+      "total_referrals": 9,
+      "total_certificates": 8
+    },
+    {
+      "month": "July",
+      "dispensary": "Alandi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 274,
+      "check_ins": 471,
+      "total_footfall": 745,
+      "total_prescriptions": 464,
+      "total_referrals": 13,
+      "total_certificates": 2
+    },
+    {
+      "month": "July",
+      "dispensary": "Baramati",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 325,
+      "check_ins": 1734,
+      "total_footfall": 2059,
+      "total_prescriptions": 1110,
+      "total_referrals": 29,
+      "total_certificates": 27
+    },
+    {
+      "month": "July",
+      "dispensary": "Bhosari",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 68,
+      "check_ins": 1254,
+      "total_footfall": 1322,
+      "total_prescriptions": 1008,
+      "total_referrals": 147,
+      "total_certificates": 5
+    },
+    {
+      "month": "July",
+      "dispensary": "Chakan",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 591,
+      "check_ins": 2090,
+      "total_footfall": 2681,
+      "total_prescriptions": 1674,
+      "total_referrals": 2,
+      "total_certificates": 18
+    },
+    {
+      "month": "July",
+      "dispensary": "Chinchwad",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 327,
+      "check_ins": 2762,
+      "total_footfall": 3089,
+      "total_prescriptions": 1909,
+      "total_referrals": 354,
+      "total_certificates": 14
+    },
+    {
+      "month": "July",
+      "dispensary": "Daund",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 144,
+      "check_ins": 815,
+      "total_footfall": 959,
+      "total_prescriptions": 862,
+      "total_referrals": 1,
+      "total_certificates": 0
+    },
+    {
+      "month": "July",
+      "dispensary": "Hadapsar",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 227,
+      "check_ins": 1394,
+      "total_footfall": 1621,
+      "total_prescriptions": 1224,
+      "total_referrals": 66,
+      "total_certificates": 112
+    },
+    {
+      "month": "July",
+      "dispensary": "Hinjewadi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 157,
+      "check_ins": 533,
+      "total_footfall": 690,
+      "total_prescriptions": 449,
+      "total_referrals": 8,
+      "total_certificates": 1
+    },
+    {
+      "month": "July",
+      "dispensary": "Khed Shivapur",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 197,
+      "check_ins": 1661,
+      "total_footfall": 1858,
+      "total_prescriptions": 1401,
+      "total_referrals": 83,
+      "total_certificates": 15
+    },
+    {
+      "month": "July",
+      "dispensary": "Kurkumbh",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 302,
+      "check_ins": 1044,
+      "total_footfall": 1346,
+      "total_prescriptions": 0,
+      "total_referrals": 14,
+      "total_certificates": 2
+    },
+    {
+      "month": "July",
+      "dispensary": "Lonavala",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 365,
+      "check_ins": 514,
+      "total_footfall": 879,
+      "total_prescriptions": 503,
+      "total_referrals": 14,
+      "total_certificates": 0
+    },
+    {
+      "month": "July",
+      "dispensary": "Mulshi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 505,
+      "check_ins": 659,
+      "total_footfall": 1164,
+      "total_prescriptions": 632,
+      "total_referrals": 0,
+      "total_certificates": 1
+    },
+    {
+      "month": "July",
+      "dispensary": "Pirangut",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 162,
+      "check_ins": 614,
+      "total_footfall": 776,
+      "total_prescriptions": 556,
+      "total_referrals": 12,
+      "total_certificates": 3
+    },
+    {
+      "month": "July",
+      "dispensary": "Rajguru Nagar",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 52,
+      "check_ins": 480,
+      "total_footfall": 532,
+      "total_prescriptions": 459,
+      "total_referrals": 0,
+      "total_certificates": 1
+    },
+    {
+      "month": "July",
+      "dispensary": "Ranjhangaon",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 224,
+      "check_ins": 1015,
+      "total_footfall": 1239,
+      "total_prescriptions": 868,
+      "total_referrals": 13,
+      "total_certificates": 5
+    },
+    {
+      "month": "July",
+      "dispensary": "Sanaswadi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 286,
+      "check_ins": 2034,
+      "total_footfall": 2320,
+      "total_prescriptions": 1524,
+      "total_referrals": 110,
+      "total_certificates": 11
+    },
+    {
+      "month": "July",
+      "dispensary": "Saswad",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 179,
+      "check_ins": 814,
+      "total_footfall": 993,
+      "total_prescriptions": 807,
+      "total_referrals": 0,
+      "total_certificates": 0
+    },
+    {
+      "month": "July",
+      "dispensary": "Shirur",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 29,
+      "check_ins": 342,
+      "total_footfall": 371,
+      "total_prescriptions": 302,
+      "total_referrals": 0,
+      "total_certificates": 0
+    },
+    {
+      "month": "July",
+      "dispensary": "Talegaon",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 367,
+      "check_ins": 1933,
+      "total_footfall": 2300,
+      "total_prescriptions": 966,
+      "total_referrals": 79,
+      "total_certificates": 0
+    },
+    {
+      "month": "July",
+      "dispensary": "Uruli Kanchan",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 594,
+      "check_ins": 971,
+      "total_footfall": 1565,
+      "total_prescriptions": 916,
+      "total_referrals": 28,
+      "total_certificates": 4
+    },
+    {
+      "month": "July",
+      "dispensary": "Wagholi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 235,
+      "check_ins": 742,
+      "total_footfall": 977,
+      "total_prescriptions": 573,
+      "total_referrals": 8,
+      "total_certificates": 4
+    },
+    {
+      "month": "August",
+      "dispensary": "Alandi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 175,
+      "check_ins": 449,
+      "total_footfall": 0,
+      "total_prescriptions": 436,
+      "total_referrals": 8,
+      "total_certificates": 2
+    },
+    {
+      "month": "August",
+      "dispensary": "Baramati",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 259,
+      "check_ins": 1476,
+      "total_footfall": 1735,
+      "total_prescriptions": 1006,
+      "total_referrals": 43,
+      "total_certificates": 8
+    },
+    {
+      "month": "August",
+      "dispensary": "Bhosari",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 154,
+      "check_ins": 1097,
+      "total_footfall": 1251,
+      "total_prescriptions": 936,
+      "total_referrals": 78,
+      "total_certificates": 7
+    },
+    {
+      "month": "August",
+      "dispensary": "Chakan",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 339,
+      "check_ins": 2100,
+      "total_footfall": 2439,
+      "total_prescriptions": 1652,
+      "total_referrals": 0,
+      "total_certificates": 6
+    },
+    {
+      "month": "August",
+      "dispensary": "Chinchwad",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 486,
+      "check_ins": 3691,
+      "total_footfall": 4177,
+      "total_prescriptions": 1690,
+      "total_referrals": 291,
+      "total_certificates": 0
+    },
+    {
+      "month": "August",
+      "dispensary": "Daund",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 404,
+      "check_ins": 603,
+      "total_footfall": 1007,
+      "total_prescriptions": 675,
+      "total_referrals": 3,
+      "total_certificates": 0
+    },
+    {
+      "month": "August",
+      "dispensary": "Hadapsar",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 222,
+      "check_ins": 1416,
+      "total_footfall": 1638,
+      "total_prescriptions": 1258,
+      "total_referrals": 58,
+      "total_certificates": 109
+    },
+    {
+      "month": "August",
+      "dispensary": "Hinjewadi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 147,
+      "check_ins": 556,
+      "total_footfall": 703,
+      "total_prescriptions": 490,
+      "total_referrals": 31,
+      "total_certificates": 1
+    },
+    {
+      "month": "August",
+      "dispensary": "Khed Shivapur",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 245,
+      "check_ins": 1704,
+      "total_footfall": 1949,
+      "total_prescriptions": 1419,
+      "total_referrals": 125,
+      "total_certificates": 7
+    },
+    {
+      "month": "August",
+      "dispensary": "Kurkumbh",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 287,
+      "check_ins": 1154,
+      "total_footfall": 1441,
+      "total_prescriptions": 817,
+      "total_referrals": 13,
+      "total_certificates": 4
+    },
+    {
+      "month": "August",
+      "dispensary": "Lonavala",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 481,
+      "check_ins": 382,
+      "total_footfall": 863,
+      "total_prescriptions": 779,
+      "total_referrals": 12,
+      "total_certificates": 0
+    },
+    {
+      "month": "August",
+      "dispensary": "Mulshi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 261,
+      "check_ins": 612,
+      "total_footfall": 873,
+      "total_prescriptions": 591,
+      "total_referrals": 0,
+      "total_certificates": 0
+    },
+    {
+      "month": "August",
+      "dispensary": "Pirangut",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 110,
+      "check_ins": 476,
+      "total_footfall": 586,
+      "total_prescriptions": 454,
+      "total_referrals": 1,
+      "total_certificates": 0
+    },
+    {
+      "month": "August",
+      "dispensary": "Rajguru Nagar",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 33,
+      "check_ins": 428,
+      "total_footfall": 461,
+      "total_prescriptions": 415,
+      "total_referrals": 0,
+      "total_certificates": 0
+    },
+    {
+      "month": "August",
+      "dispensary": "Ranjhangaon",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 284,
+      "check_ins": 1014,
+      "total_footfall": 1298,
+      "total_prescriptions": 840,
+      "total_referrals": 10,
+      "total_certificates": 3
+    },
+    {
+      "month": "August",
+      "dispensary": "Sanaswadi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 652,
+      "check_ins": 2138,
+      "total_footfall": 2790,
+      "total_prescriptions": 1789,
+      "total_referrals": 137,
+      "total_certificates": 9
+    },
+    {
+      "month": "August",
+      "dispensary": "Saswad",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 126,
+      "check_ins": 614,
+      "total_footfall": 740,
+      "total_prescriptions": 635,
+      "total_referrals": 2,
+      "total_certificates": 0
+    },
+    {
+      "month": "August",
+      "dispensary": "Shirur",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 119,
+      "check_ins": 361,
+      "total_footfall": 480,
+      "total_prescriptions": 328,
+      "total_referrals": 0,
+      "total_certificates": 0
+    },
+    {
+      "month": "August",
+      "dispensary": "Talegaon",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 344,
+      "check_ins": 2032,
+      "total_footfall": 2376,
+      "total_prescriptions": 998,
+      "total_referrals": 156,
+      "total_certificates": 1
+    },
+    {
+      "month": "August",
+      "dispensary": "Uruli Kanchan",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 208,
+      "check_ins": 919,
+      "total_footfall": 1127,
+      "total_prescriptions": 0,
+      "total_referrals": 12,
+      "total_certificates": 4
+    },
+    {
+      "month": "August",
+      "dispensary": "Wagholi",
+      "city": "Pune",
+      "type": "Dispensary",
+      "new_registrations": 84,
+      "check_ins": 757,
+      "total_footfall": 841,
+      "total_prescriptions": 541,
+      "total_referrals": 12,
+      "total_certificates": 22
+    }
+  ],
+  "alerts_data": [
+    {
+      "type": "warning",
+      "title": "Declining Footfall Alert",
+      "message": "Patient footfall has decreased in multiple dispensaries",
+      "facilities": [
+        "Daund",
+        "Mulshi",
+        "Shirur"
+      ],
+      "action": "Review resource allocation and strengthen outreach programs",
+      "priority": "medium",
+      "metric": "footfall"
+    },
+    {
+      "type": "critical",
+      "title": "Low Outreach Performance",
+      "message": "Below target camp attendance and registration rates",
+      "facilities": [
+        "Shirur",
+        "Hinjewadi",
+        "Pirangut"
+      ],
+      "action": "Immediate review of community engagement and camp effectiveness",
+      "priority": "high",
+      "metric": "outreach"
+    },
+    {
+      "type": "info",
+      "title": "High Referral Dependency",
+      "message": "Some facilities showing above-average referral rates",
+      "facilities": [
+        "Chinchwad",
+        "Talegaon",
+        "Sanaswadi"
+      ],
+      "action": "Strengthen specialist services and diagnostic capabilities",
+      "priority": "low",
+      "metric": "referrals"
+    },
+    {
+      "type": "success",
+      "title": "Outstanding Performance",
+      "message": "Exceptional performance across multiple metrics",
+      "facilities": [
+        "Chakan",
+        "Sanaswadi",
+        "Khed Shivapur"
+      ],
+      "action": "Document and replicate best practices network-wide",
+      "priority": "low",
+      "metric": "overall"
+    }
+  ],
+  "efficiency_methodology": {
+    "formula": "Efficiency Score = (Total Prescriptions / Total Footfall) \u00d7 Service Quality Index \u00d7 Resource Utilization Factor",
+    "components": [
+      "Patient Footfall Utilization (40%)",
+      "Prescription Fulfillment Rate (30%)",
+      "Referral Optimization (20%)",
+      "Certificate Processing Efficiency (10%)"
+    ],
+    "benchmarks": {
+      "excellent": "> 85% (Score: 18-20)",
+      "good": "70-85% (Score: 15-17)",
+      "average": "55-70% (Score: 12-14)",
+      "needs_improvement": "< 55% (Score: < 12)"
+    }
+  }
+}

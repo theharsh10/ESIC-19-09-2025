@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESIC Pune Healthcare Dashboard - Real-Time Monitoring</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="dashboard-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-left">
+                    <div class="logo-placeholder">
+                        <div class="logo-icon">ESIC</div>
+                    </div>
+                    <div class="header-title">
+                        <h1>ESIC Pune Healthcare Dashboard</h1>
+                        <p>Real-Time Facility Monitoring & Evidence-Based Healthcare Insights</p>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <button class="btn btn--outline theme-toggle" id="themeToggle">
+                        <span id="themeIcon">🌙</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="dashboard-nav">
+        <div class="container">
+            <div class="nav-tabs">
+                <button class="nav-tab active" data-tab="overview">Overview</button>
+                <button class="nav-tab" data-tab="analysis">Analysis</button>
+                <button class="nav-tab" data-tab="directory">Facility Directory</button>
+                <button class="nav-tab" data-tab="performance">Performance Analytics</button>
+                <button class="nav-tab" data-tab="referrals">Referral Analysis</button>
+                <button class="nav-tab" data-tab="alerts">Alerts & Notifications</button>
+                <button class="nav-tab" data-tab="outreach">Outreach</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Global Filter Bar -->
+    <div class="global-filter-bar">
+        <div class="container">
+            <div class="filter-section">
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label for="citySelect">City Selection:</label>
+                        <select id="citySelect" class="form-control">
+                            <option value="pune" selected>Pune</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="facilityTypeSelect">Facility Type:</label>
+                        <select id="facilityTypeSelect" class="form-control">
+                            <option value="all" selected>All Types</option>
+                            <option value="dispensary">Dispensary</option>
+                            <option value="hospital">Hospital</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="facilitySelect">Facility Selection:</label>
+                        <select id="facilitySelect" class="form-control">
+                            <option value="all" selected>All Facilities</option>
+                            <option value="dhanwantari-hospital">Dhanwantari Hospital</option>
+                            <optgroup label="Dispensaries">
+                                <option value="alandi">Alandi</option>
+                                <option value="baramati">Baramati</option>
+                                <option value="bhosari">Bhosari</option>
+                                <option value="chakan">Chakan</option>
+                                <option value="chinchwad">Chinchwad</option>
+                                <option value="daund">Daund</option>
+                                <option value="hadapsar">Hadapsar</option>
+                                <option value="hinjewadi">Hinjewadi</option>
+                                <option value="khed-shivapur">Khed Shivapur</option>
+                                <option value="kurkumbh">Kurkumbh</option>
+                                <option value="lonavala">Lonavala</option>
+                                <option value="mulshi">Mulshi</option>
+                                <option value="pirangut">Pirangut</option>
+                                <option value="rajguru-nagar">Rajguru Nagar</option>
+                                <option value="ranjhangaon">Ranjhangaon</option>
+                                <option value="sanaswadi">Sanaswadi</option>
+                                <option value="saswad">Saswad</option>
+                                <option value="shirur">Shirur</option>
+                                <option value="talegaon">Talegaon</option>
+                                <option value="uruli-kanchan">Uruli Kanchan</option>
+                                <option value="wagholi">Wagholi</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="periodSelect">Time Period:</label>
+                        <select id="periodSelect" class="form-control">
+                            <option value="daily">Daily</option>
+                            <option value="weekly">Weekly</option>
+                            <option value="monthly" selected>Monthly</option>
+                            <option value="quarterly">Quarterly</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="startDate">Start Date:</label>
+                        <input type="date" id="startDate" class="form-control" value="2025-04-01">
+                    </div>
+                    <div class="filter-group">
+                        <label for="endDate">End Date:</label>
+                        <input type="date" id="endDate" class="form-control" value="2025-08-31">
+                    </div>
+                    <div class="filter-actions">
+                        <button class="btn btn--primary btn--lg apply-filters-btn" id="applyFilters">
+                            Apply Filters
+                        </button>
+                        <button class="btn btn--outline" id="exportData">
+                            Export Data
+                        </button>
+                    </div>
+                </div>
+                <div class="filter-status" id="filterStatus">
+                    <span class="status-indicator">Filters Applied: All Facilities, Monthly View</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="dashboard-main">
+        <div class="container">
+            <!-- Overview Tab -->
+            <div class="tab-content active" id="overview">
+                <div class="tab-header">
+                    <h2>Strategic Command Center</h2>
+                    <div class="loading-indicator hidden" id="loadingIndicator">
+                        <span>Updating data...</span>
+                    </div>
+                </div>
+
+                <!-- Network Overview KPI Cards -->
+                <div class="metrics-grid">
+                    <div class="metric-card" data-metric="facilities">
+                        <div class="metric-icon">🏥</div>
+                        <div class="metric-content">
+                            <h3>Total Facilities</h3>
+                            <p class="metric-value" id="totalFacilities">22</p>
+                            <span class="metric-label" id="facilitiesLabel">21 Dispensaries + 1 Hospital</span>
+                            <div class="trend-indicator hidden" id="facilitiesTrend"></div>
+                        </div>
+                    </div>
+                    <div class="metric-card" data-metric="footfall">
+                        <div class="metric-icon">👥</div>
+                        <div class="metric-content">
+                            <h3>Patient Footfall</h3>
+                            <p class="metric-value" id="totalFootfall">122,421</p>
+                            <span class="metric-label">Patients Served</span>
+                            <div class="trend-indicator hidden" id="footfallTrend"></div>
+                        </div>
+                    </div>
+                    <div class="metric-card" data-metric="registrations">
+                        <div class="metric-icon">📋</div>
+                        <div class="metric-content">
+                            <h3>New Registrations</h3>
+                            <p class="metric-value" id="totalRegistrations">29,994</p>
+                            <span class="metric-label">New Patients</span>
+                            <div class="trend-indicator hidden" id="registrationsTrend"></div>
+                        </div>
+                    </div>
+                    <div class="metric-card" data-metric="checkins">
+                        <div class="metric-icon">✅</div>
+                        <div class="metric-content">
+                            <h3>Total Check-ins</h3>
+                            <p class="metric-value" id="totalCheckins">94,825</p>
+                            <span class="metric-label">Patient Visits</span>
+                            <div class="trend-indicator hidden" id="checkinsTrend"></div>
+                        </div>
+                    </div>
+                    <div class="metric-card" data-metric="prescriptions">
+                        <div class="metric-icon">💊</div>
+                        <div class="metric-content">
+                            <h3>Total Prescriptions</h3>
+                            <p class="metric-value" id="totalPrescriptions">70,175</p>
+                            <span class="metric-label">Medicines Dispensed</span>
+                            <div class="trend-indicator hidden" id="prescriptionsTrend"></div>
+                        </div>
+                    </div>
+                    <div class="metric-card" data-metric="referrals">
+                        <div class="metric-icon">🔄</div>
+                        <div class="metric-content">
+                            <h3>Total Referrals</h3>
+                            <p class="metric-value" id="totalReferrals">14,393</p>
+                            <span class="metric-label">Patient Referrals</span>
+                            <div class="trend-indicator hidden" id="referralsTrend"></div>
+                        </div>
+                    </div>
+                    <div class="metric-card" data-metric="certificates">
+                        <div class="metric-icon">📄</div>
+                        <div class="metric-content">
+                            <h3>Total Certificates</h3>
+                            <p class="metric-value" id="totalCertificates">11,117</p>
+                            <span class="metric-label">Documents Issued</span>
+                            <div class="trend-indicator hidden" id="certificatesTrend"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Performance Trends Section -->
+                <div class="performance-trends-section">
+                    <h3>Network Monthly Performance Trends Across ESIC Pune Healthcare Network</h3>
+                    <p class="section-subtitle">Real-time analysis of patient footfall, prescriptions, referrals, and certificates issued</p>
+                    
+                    <div class="trends-charts">
+                        <div class="trend-chart-container">
+                            <h4>Patient Footfall & Growth Trends</h4>
+                            <div class="chart-container" style="position: relative; height: 300px;">
+                                <canvas id="footfallTrendChart"></canvas>
+                            </div>
+                        </div>
+                        
+                        <div class="trend-chart-container">
+                            <h4>Monthly Prescription & Registration Analysis</h4>
+                            <div class="chart-container" style="position: relative; height: 300px;">
+                                <canvas id="prescriptionTrendChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="month-wise-breakdown">
+                        <h4>Month-wise Performance Breakdown</h4>
+                        <div class="breakdown-grid" id="monthBreakdown">
+                            <!-- Will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Conditional Department Utilization (Hospital Only) -->
+                <div class="department-section hidden" id="departmentSection">
+                    <h3>Department Utilization (Dhanwantari Hospital)</h3>
+                    <p class="section-subtitle">Detailed department-wise patient distribution and service metrics</p>
+                    <div class="department-grid" id="departmentGrid">
+                        <!-- Will be populated when hospital is selected -->
+                    </div>
+                    <div class="department-charts">
+                        <div class="chart-container" style="position: relative; height: 350px;">
+                            <canvas id="departmentChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Analysis Tab -->
+            <div class="tab-content" id="analysis">
+                <div class="tab-header">
+                    <h2>Performance & Comparative Analysis</h2>
+                    <div class="tab-filters">
+                        <select id="analysisFacilitySelect" class="form-control">
+                            <option value="all">All Facilities</option>
+                        </select>
+                        <select id="analysisPeriodSelect" class="form-control">
+                            <option value="monthly">Monthly</option>
+                            <option value="weekly">Weekly</option>
+                            <option value="quarterly">Quarterly</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="analysis-content">
+                    <div class="analysis-charts">
+                        <div class="chart-container" style="position: relative; height: 400px;">
+                            <canvas id="comparisonChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="facility-scores">
+                        <h3>Facility Performance Indicators</h3>
+                        <div id="facilityScores"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Facility Directory Tab -->
+            <div class="tab-content" id="directory">
+                <div class="tab-header">
+                    <h2>Facility Directory & Performance Database</h2>
+                    <div class="search-filters">
+                        <input type="text" id="facilitySearch" class="form-control" placeholder="Search facilities by name...">
+                        <select id="typeFilter" class="form-control">
+                            <option value="all">All Types</option>
+                            <option value="hospital">Hospital</option>
+                            <option value="dispensary">Dispensary</option>
+                        </select>
+                        <select id="performanceFilter" class="form-control">
+                            <option value="all">All Performance Levels</option>
+                            <option value="excellent">Excellent (>17.0)</option>
+                            <option value="good">Good (14.0-17.0)</option>
+                            <option value="average">Average (12.0-14.0)</option>
+                            <option value="needs-improvement">Needs Improvement (<12.0)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="directory-content">
+                    <div class="facility-list" id="facilityList"></div>
+                    <div class="efficiency-methodology">
+                        <h4>Performance Scoring Methodology</h4>
+                        <p><strong>Performance Score = (Footfall Weight × 40%) + (Prescription Efficiency × 50%) + (Service Diversity × 10%)</strong></p>
+                        <div class="methodology-details">
+                            <div class="methodology-item">
+                                <span class="method-label">Patient Footfall Utilization (40%):</span>
+                                <span>Measures patient access and facility utilization capacity</span>
+                            </div>
+                            <div class="methodology-item">
+                                <span class="method-label">Prescription Fulfillment Efficiency (50%):</span>
+                                <span>Evaluates service delivery effectiveness and prescription accuracy</span>
+                            </div>
+                            <div class="methodology-item">
+                                <span class="method-label">Service Diversity & Certificate Processing (10%):</span>
+                                <span>Assesses comprehensive care provision and administrative efficiency</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Performance Analytics Tab -->
+            <div class="tab-content" id="performance">
+                <div class="tab-header">
+                    <h2>Performance Analytics Dashboard</h2>
+                </div>
+                <div class="performance-dashboard">
+                    <div class="performance-rankings">
+                        <div class="ranking-section">
+                            <h3>Top 5 Performers</h3>
+                            <div id="topPerformers" class="rankings-grid"></div>
+                        </div>
+                        <div class="ranking-section">
+                            <h3>Bottom 5 Performers</h3>
+                            <div id="bottomPerformers" class="rankings-grid"></div>
+                        </div>
+                    </div>
+                    <div class="efficiency-display">
+                        <h3>Efficiency Calculation Formula</h3>
+                        <div class="formula-display">
+                            <p>Performance Score = (Footfall Weight × 40%) + (Prescription Efficiency × 50%) + (Service Diversity × 10%)</p>
+                        </div>
+                        <div class="benchmark-indicators">
+                            <div class="benchmark excellent">
+                                <span class="benchmark-label">Excellent</span>
+                                <span class="benchmark-range">> 17.0</span>
+                                <span class="benchmark-desc">Top Tier Performance</span>
+                            </div>
+                            <div class="benchmark good">
+                                <span class="benchmark-label">Good</span>
+                                <span class="benchmark-range">14.0 - 17.0</span>
+                                <span class="benchmark-desc">Above Average Performance</span>
+                            </div>
+                            <div class="benchmark average">
+                                <span class="benchmark-label">Average</span>
+                                <span class="benchmark-range">12.0 - 14.0</span>
+                                <span class="benchmark-desc">Standard Performance</span>
+                            </div>
+                            <div class="benchmark needs-improvement">
+                                <span class="benchmark-label">Needs Improvement</span>
+                                <span class="benchmark-range">< 12.0</span>
+                                <span class="benchmark-desc">Requires Immediate Attention</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Referral Analysis Tab -->
+            <div class="tab-content" id="referrals">
+                <div class="tab-header">
+                    <h2>Referral Analysis - ESIC Network</h2>
+                    <div class="tab-filters">
+                        <select id="referralFacilitySelect" class="form-control">
+                            <option value="all">All Facilities</option>
+                        </select>
+                        <select id="referralPeriodSelect" class="form-control">
+                            <option value="monthly">Monthly View</option>
+                            <option value="weekly">Weekly View</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="referral-content">
+                    <div class="referral-summary">
+                        <h3>ESIC Network Referrals Summary</h3>
+                        <div class="summary-stats">
+                            <div class="stat-item">
+                                <span class="stat-label">Total Network Referrals:</span>
+                                <span class="stat-value" id="totalNetworkReferrals">14,393</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Average Monthly Referrals:</span>
+                                <span class="stat-value" id="avgMonthlyReferrals">2,879</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-label">Referral Success Rate:</span>
+                                <span class="stat-value">96.8%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chart-container" style="position: relative; height: 400px;">
+                        <canvas id="referralChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Alerts & Notifications Tab -->
+            <div class="tab-content" id="alerts">
+                <div class="tab-header">
+                    <h2>Alerts & Notifications</h2>
+                    <div class="alert-summary">
+                        <div class="alert-count critical">
+                            <span class="count" id="criticalCount">2</span>
+                            <span class="label">Critical</span>
+                        </div>
+                        <div class="alert-count warning">
+                            <span class="count" id="warningCount">1</span>
+                            <span class="label">Warning</span>
+                        </div>
+                        <div class="alert-count success">
+                            <span class="count" id="successCount">1</span>
+                            <span class="label">Success</span>
+                        </div>
+                        <div class="alert-count info">
+                            <span class="count" id="infoCount">1</span>
+                            <span class="label">Info</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="alerts-content">
+                    <div class="alert-cards" id="alertCards">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Outreach Tab -->
+            <div class="tab-content" id="outreach">
+                <div class="tab-header">
+                    <h2>Enhanced Outreach Programs with Industrial Analytics (April - August 2025)</h2>
+                    <div class="outreach-filters">
+                        <input type="text" id="outreachSearch" class="form-control" placeholder="Search by month or facility...">
+                        <select id="outreachMonthFilter" class="form-control">
+                            <option value="all">All Months</option>
+                            <option value="april">April</option>
+                            <option value="may">May</option>
+                            <option value="june">June</option>
+                            <option value="july">July</option>
+                            <option value="august">August</option>
+                        </select>
+                        <select id="outreachMetricFilter" class="form-control">
+                            <option value="all">All Metrics</option>
+                            <option value="camps">Outreach Camps</option>
+                            <option value="industrial">Industrial Analytics</option>
+                            <option value="digital">Digital Adoption</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="outreach-content">
+                    <!-- Enhanced Outreach Metrics -->
+                    <div class="outreach-metrics">
+                        <div class="metric-card">
+                            <div class="metric-icon">🏕️</div>
+                            <div class="metric-content">
+                                <h3>Total Camp Footfall</h3>
+                                <p class="metric-value" id="totalCampFootfall">39,810</p>
+                                <span class="metric-label">Across 5 Months</span>
+                            </div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-icon">🏭</div>
+                            <div class="metric-content">
+                                <h3>Industrial Employee Coverage</h3>
+                                <p class="metric-value" id="totalIndustrialEmployees">5,774</p>
+                                <span class="metric-label">Total Employees Reached</span>
+                            </div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-icon">📱</div>
+                            <div class="metric-content">
+                                <h3>E-Pehchaan Cards</h3>
+                                <p class="metric-value" id="totalEPehchaanCards">2,271</p>
+                                <span class="metric-label">Digital Identity Cards</span>
+                            </div>
+                        </div>
+                        <div class="metric-card">
+                            <div class="metric-icon">👨‍💼</div>
+                            <div class="metric-content">
+                                <h3>ESI Mitras Identified</h3>
+                                <p class="metric-value" id="totalESIMitras">60</p>
+                                <span class="metric-label">Community Representatives</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Industrial Analytics Charts -->
+                    <div class="industrial-analytics">
+                        <h3>Industrial Outreach & Digital Adoption Analytics</h3>
+                        <div class="analytics-charts">
+                            <div class="chart-container" style="position: relative; height: 400px;">
+                                <canvas id="industrialChart"></canvas>
+                            </div>
+                            <div class="chart-container" style="position: relative; height: 400px;">
+                                <canvas id="digitalAdoptionChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Monthly Performance Grid -->
+                    <div class="outreach-performance">
+                        <h3>Monthly Outreach Performance with Industrial Metrics</h3>
+                        <div class="performance-grid" id="outreachPerformanceGrid">
+                            <!-- Will be populated by JavaScript -->
+                        </div>
+                    </div>
+
+                    <!-- Link to Alerts -->
+                    <div class="outreach-alerts-link">
+                        <h4>Performance Monitoring</h4>
+                        <p>Monitor outreach performance issues and alerts in the <button class="btn btn--outline" onclick="switchToTab('alerts')">Alerts & Notifications</button> section</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="dashboard-footer">
+        <div class="container">
+            <p>Copyright © DigiFacility Team – DPH_CoE</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
